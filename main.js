@@ -20,9 +20,10 @@ productsNode.forEach((product) => {
   product.addEventListener(
     "touchstart",
     (e) => {
+      e.preventDefault();
       addToCartOnMobile(e);
     },
-    { passive: true }
+    { passive: false }
   );
 });
 
