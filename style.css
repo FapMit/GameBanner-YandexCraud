@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   max-height: 100vh;
+  scroll-behavior: contain;
 }
 
 .wrapper {
